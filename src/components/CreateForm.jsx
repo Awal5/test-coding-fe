@@ -124,7 +124,7 @@ export const CreateForm = () => {
     // buat transaksi dengan axios
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/v1/transaction",
+        "https://6273-2001-448a-3027-1bbc-a4d2-8853-3fa5-f4a9.ngrok-free.app/api/v1/transaction",
         payload
       );
       alert("Transaksi berhasil dibuat!");
