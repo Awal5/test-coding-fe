@@ -18,7 +18,7 @@ export const Table = () => {
     const getData = async () => {
       try {
         const data = await axios.get(
-          `https://bb36-2001-448a-3027-1bbc-a4d2-8853-3fa5-f4a9.ngrok-free.app/api/v1/transaction`
+          `http://localhost:3000/api/v1/transaction`
         );
 
         setTransactions(data.data.data);
